@@ -6,7 +6,7 @@
 
 export const drawCard = (card, container) => {
   const image = document.createElement("img");
-  image.src = `assets/cards/${card}.png`;
+  image.src = `/js-vite-blackjack/assets/cards/${card}.png`;
   image.classList.add("carta");
   container.appendChild(image);
 };
