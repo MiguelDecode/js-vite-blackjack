@@ -6,7 +6,7 @@
 
 export const drawCard = (card, container) => {
   const image = document.createElement("img");
-  image.src = `/cards/${card}.png`;
+  image.src = `assets/cards/${card}.png`;
   image.classList.add("carta");
   container.appendChild(image);
 };
